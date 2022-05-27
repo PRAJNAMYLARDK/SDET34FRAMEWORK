@@ -2,7 +2,7 @@ package com.sdet34l1.genericutility;
 /**
  * this  interface consists the path of the external files
  * @author Admin
- *
+ *it is used to store paths of file
  */
 
 
