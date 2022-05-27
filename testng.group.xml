@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <groups>
+    <run>
+    <exclude name="sanity"/>
+    <include name= "Baseclass"/>
+    <include name="regression"/>
+    </run>
+     </groups>
+  <test thread-count="4" name="Test">
+    <classes>
+      <class name="com.OrganizationTest.CreateOrganizationWthAssignedToSupportGroup"/>
+      <class name="com.vtiger.Organization.Organizationwithindustry"/>
+      <class name="com.OrganizationTest.CreateSearchOrganizationByOrgNumber"/>
+      <class name="com.vtiger.productsTest.CreateProductTest"/>
+      <class name="com.vtiger.DocumentsTest.CreateDocumentTest"/>
+      <class name="com.vtiger.ContactsTest.CreateContactWithOrganizationTest"/>
+      <class name="com.OrganizationTest.CreateOrganizationwithoutEmailopt"/>
+      <class name="com.vtiger.Organization.CreateOrganizationIndustryTest"/>
+      <class name="com.OrganizationTest.CreateOrganizationModuleTest"/>
+      <class name="com.vtiger.ContactsTest.CreateContactTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
