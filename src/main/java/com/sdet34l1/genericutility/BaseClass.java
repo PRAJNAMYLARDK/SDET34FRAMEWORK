@@ -21,7 +21,7 @@ import com.vtigerObjectRepository.HomePage;
 	/**
 	 * 
 	 * @author Admin
-	 *
+	 *It is an base class
 	 */
 	public class BaseClass
 	{
