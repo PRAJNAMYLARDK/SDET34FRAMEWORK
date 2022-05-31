@@ -8,7 +8,7 @@ import com.vtigerObjectRepository.CreateNewContactPage;
 
 	public class CreateContactTest  extends BaseClass
 	{
-		@Test(groups="regression")
+		@Test(groups="sanity")
 	
 
 		public  void Contact() throws InterruptedException

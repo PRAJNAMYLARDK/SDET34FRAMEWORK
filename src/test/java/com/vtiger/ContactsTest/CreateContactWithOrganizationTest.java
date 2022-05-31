@@ -12,7 +12,7 @@ import com.vtigerObjectRepository.OrganizationPage;
 
 	public class CreateContactWithOrganizationTest  extends BaseClass{
 		
-	@Test()
+	@Test(groups="sanity")
 		public  void CreateContactWithOrganizationTest1() throws InterruptedException
 		{
 		homepage.contactlink();
