@@ -10,7 +10,7 @@ public class CreateProductTest extends BaseClass
 {
 	String productName;
 	CreateNewProductPage CreateNewProductPage ;
-	@Test(groups="sanity")
+	@Test(groups="regression")
 	
 	public void createProduct()
 	{
