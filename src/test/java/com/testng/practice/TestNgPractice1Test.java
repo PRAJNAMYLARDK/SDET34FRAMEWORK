@@ -4,7 +4,9 @@ import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 public class TestNgPractice1Test extends TestNgBasicConfigAnnotationPracticeTest{
+
 	//changes from b1
+
 	@Test(groups="sanity")
 	public void practice1Test() {
 		Reporter.log("TestNgPractice1Test-->Test1", true);
